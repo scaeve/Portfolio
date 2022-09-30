@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Michiel's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<!----intro / "hero section"---->
+	
+	<div class="intro">
+		<div id="navbar">
+			<script>
+				window.onscroll = function() {myFunction()};
+			
+				var navbar = document.getElementById("navbar");
+			
+				var sticky = navbar.offsetTop;
+			
+				function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+			</script>
+		<nav>
+			<h2 class ="logo"><img src="logo2.png"></h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Aboutme.html">About me</a></li>
+				<li><a href="projects.html">Projects</a></li>
+			</ul>
+			<a href="https://form.jotform.com/222683903864363" class="btn" target="_blank">Let's talk!</a>
+		</nav>
+		</div>
+		
+		<div class="filler">
+			<h3>Hi, my name is </h3>
+			<h1>Michiel <span>van der Schaaf</span></h1>
+			<h2>I'm a Motion Graphic Designer.</h2>
+			<div class="contactform">
+			<form>
+				<input type="email" name="email" id="mail" placeholder="Fill in your Email">
+				<input type="submit" name="submit" value="Let's Start!">
+			</form>
+			</div>
+		</div>
+	</div>
+
+<!--"About me" gedeelte-->
+<section class="About-me">
+	<div class="main">
+		<img src="about me picca.jpg">
+		<div class="about-text">
+			<h2>About me</h2>
+			<h4>Motion Designer <span>and Developer</span></h4>
+			<H5>My name is Michiel van der Schaaf and I'm 19 years old. I study Open-ICT at the HU University of Applied Sciences in Utrecht since 2022. 
+				Where I hope to become a software developer one day. In my free time I play around with After Effects and Photoshop to make edits or designs.</H5>
+				<a class="button" href="Michiel resume (3).pdf" target="blank">View CV</a>
+			</div>
+		</div>
+</section>
+
+<!--skills section-->
+<div class="skills">
+	<div class="title">
+		<h2>My Skills</h2>
+	</div>
+	<div class="box">
+		<div class="card">
+			<i class="fa-solid fa-film"></i>
+			<h5>Video Editing</h5>
+			<div class="pra">
+			<p>No matter whether it's a short edit, music video or school video. 
+				I'll edit it</p>
+
+			<p style="text-align: center;">
+				<a class="button" href="Aboutme.html">Read More</a>
+			</p>
+		</div>
+	</div>
+	<div class="card">
+		<i class="fa-solid fa-computer"></i>
+		<h5>Motion Graphics</h5>
+		<div class="pra">
+		<p>Need an animated post template, personal video or personalized edit for your 
+			social media? I'll take care of it.</p>
+
+		<p style="text-align: center;">
+			<a class="button" href="Aboutme.html">Read More</a>
+				</p>
+		</div>
+	</div>
+	<div class="card">
+		<i class="fa-sharp fa-solid fa-pen-nib"></i>
+		<h5>Graphic Design</h5>
+		<div class="pra">
+		<p>I create social media post templates, YouTube artwork, thumbnails and commissions </p>
+	
+		<p style="text-align: center;">
+			<a class="button" href="Aboutme.html">Read More</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- Works showcase-->
+<div class="showcase">
+	<div class="titel">
+	<h2>My works</h2>
+</div>
+<div class="box2">
+	<div class="card 2">
+		<h5>Project 1</h5>
+		<div class="pra">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+	sed do eiusmod tempor incididunt ut labore et dolore magna 
+	aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+	ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+</div>
+<div class="card 2">
+	<h5>Project 2</h5>
+	<div class="pra">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+</div>
+</div>
+
+<!--Contact info footer-->
+<footer>
+	<p>Michiel van der Schaaf</p>
+	<p>If you are interested in one my services, please don't
+		hesitate to click one of the links below.</p>
+		<div class="socialsfooter">
+			<a href="https://www.linkedin.com/in/michielvdschaaf/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="https://www.instagram.com/fuckscaeve/" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+			<a href="https://www.youtube.com/channel/UCqf-xKKBMjYaFhTn5OjVZaw" target="blank"><i class="fa-brands fa-youtube"></i></a>
+			<a href="mailto:michielvdschaafzakelijk@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+		</div>
+		<p class="einde">©Michiel van der Schaaf</p>
+</footer>
+</body>
+</html>
