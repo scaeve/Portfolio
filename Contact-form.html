@@ -12,7 +12,30 @@
 </head>
 <body>
     <div class="container-contact">
-
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="phone" placeholder="Phone no." required>
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Send</button>
+        </form>
     </div>
+    <script> src="https://smtpjs.com/v3/smtp.js"</script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "michielvdschaafschool@gmail.com",
+                Password : "michielvinesschaaf2003",
+                To : 'michielvdschaafzakelijk@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then( 
+            message => alert(message)
+            );
+        }
+    </script>
 </body>
 </html>
