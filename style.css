@@ -7,7 +7,7 @@
 .intro{
 	height: 100vh;
 	width: 100%;
-	background-image: url(../portfolio/ewaja-overlay.jpg);
+	background-image: url(ewaja-overlay.jpg);
 	background-size: cover;
 	background-position: center;
 }
