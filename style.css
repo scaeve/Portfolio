@@ -28,7 +28,7 @@ nav{
 	padding-top: 2px;
 	padding-left: 8%;
 	padding-right: 8%;
-	overflow: hidden
+	overflow: hidden;
 }
 .sticky{
 	position: fixed;
