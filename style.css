@@ -379,7 +379,7 @@ footer p:nth-child(2){
 .aboutmefoto img{
 	height: 42%;
 	width: 42%;
-	border-radius: 23%;
+	border-radius: 5%;
 }
 .footeraboutme{
 	margin-top: 80px;
