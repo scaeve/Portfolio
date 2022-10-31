@@ -471,8 +471,8 @@ footer p:nth-child(2){
 	height: 104vh;
 	width: 100%;
 	background-image: url(premiereproheader.jpg);
-	background-size: 1500px;
-	background-position: bottom;
+	background-size: cover;
+	background-position: center;
 }
 .card-projects{
 	text-align: center;
